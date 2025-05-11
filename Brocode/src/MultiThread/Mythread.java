@@ -13,7 +13,7 @@ public class Mythread extends Thread {
 			} catch (InterruptedException e) {
  				e.printStackTrace();
 			}
-			System.out.println(1/0);
+//			System.out.println(1/0);
 		}
 		System.out.println("Thread number 1 is finished :)");
 	}
