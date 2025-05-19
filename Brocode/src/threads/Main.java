@@ -1,7 +1,7 @@
 package threads;
 
 public class Main {
-
+ 
 	public static void main(String[] args) throws InterruptedException {
 
 		System.out.println(Thread.activeCount());	
@@ -22,7 +22,7 @@ public class Main {
 		
 		
 		
-		
+		 
 		Mythread thread2 =new Mythread();
 		
 		thread2.start();// for start thread use start function 
